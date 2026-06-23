@@ -68,9 +68,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-slate-300 max-w-xl">
-            I specialize in high-speed routing, RF-aware layouts, SMPS and power electronics, and low-power
-            IoT hardware. I deliver accurate schematics, optimized PCB layouts, complete design packages,
-            and production-ready Gerbers with DFM/DFA in mind.
+          Electronics Engineer, PCB Designer, Hardware Developer
           </p>
 
           <div className="flex gap-4">

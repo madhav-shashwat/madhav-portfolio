@@ -3,7 +3,7 @@ import type { Service } from '../types'
 const services: Service[] = [
   {
     id: 's1',
-    title: 'Custom PCB Design (1–4 Layer)',
+    title: 'Custom PCB Design (Up to 12 Layers)',
     description:
       'Complete PCB design for power electronics, IoT hardware, lighting products, chargers, drivers, and consumer electronics.',
     deliverables: [
@@ -12,6 +12,13 @@ const services: Service[] = [
       'Gerber & Drill Files',
       'BOM & Component Selection',
     ],
+  },
+  {
+    id: 's7',
+    title: 'Reverse Engineering (Physical Board to Gerber)',
+    description:
+      'Reconstructing schematics from existing boards for redesign, improvement, or replacement.',
+    deliverables: ['Recreated Schematic', 'BOM Extraction', 'Clean PCB Files'],
   },
   {
     id: 's2',
@@ -48,13 +55,7 @@ const services: Service[] = [
       'Development of SMPS circuits, e-rickshaw chargers, constant-current drivers, and AC/DC controller boards.',
     deliverables: ['Power Schematics', 'Thermal-aware PCB Layout', 'Gerber Files'],
   },
-  {
-    id: 's7',
-    title: 'Reverse Engineering (PCB → Schematic)',
-    description:
-      'Reconstructing schematics from existing boards for redesign, improvement, or replacement.',
-    deliverables: ['Recreated Schematic', 'BOM Extraction', 'Clean PCB Files'],
-  },
+
   {
     id: 's8',
     title: 'Prototype Debugging & Hardware Testing',
