@@ -4,23 +4,23 @@ import SectionTitle from '../components/SectionTitle'
 const TESTS = [
   {
     id: 't1',
-    name: 'Amit S.',
-    projectType: 'IoT Sensor',
+    name: 'Sanjay Gupta',
+    projectType: 'Relay, DC Converter',
     text: 'Delivered excellent power-optimized design, reduced BOM cost and improved battery life.',
     rating: 5,
   },
   {
     id: 't2',
-    name: 'Priya K.',
-    projectType: 'Wearable',
+    name: 'Krishna (founder KBC Tech Solutions)',
+    projectType: 'Automated Microscope Motion and Control Board',
     text: 'Great layout and thermal planning — assembly was smooth.',
     rating: 5,
   },
   {
     id: 't3',
-    name: 'Ravi N.',
-    projectType: 'RF Module',
-    text: 'Strong EMI/EMC aware design, passed certification tests.',
+    name: 'Kasim',
+    projectType: 'Robotic Car',
+    text: 'Strong design, passed certification tests.',
     rating: 5,
   },
 ]

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import SectionTitle from '../components/SectionTitle'
+import { LOCATION, googleMapsEmbedUrl } from '../data/location'
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
@@ -150,6 +151,35 @@ export default function Contact() {
                 Freelance / Contract — open to pcb design projects
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="mt-10">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2 mb-4">
+            <div>
+              <h3 className="text-lg font-semibold text-slate-100">Location</h3>
+              <p className="text-sm text-slate-300 mt-1">{LOCATION.areaLabel}</p>
+              <p className="text-xs text-slate-400 mt-0.5">{LOCATION.coordinatesLabel}</p>
+            </div>
+            <a
+              href={LOCATION.mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-pcb-teal hover:text-pcb-green underline underline-offset-4 shrink-0"
+            >
+              Open in Google Maps
+            </a>
+          </div>
+
+          <div className="glass rounded-xl overflow-hidden border border-white/10 shadow-lg">
+            <iframe
+              title={`Map — ${LOCATION.areaLabel}`}
+              src={googleMapsEmbedUrl(LOCATION.lat, LOCATION.lng)}
+              className="w-full h-[280px] sm:h-[360px] md:h-[420px] border-0"
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
         </div>
       </div>

@@ -26,17 +26,36 @@ export default function About() {
 
         <div className="md:col-span-2">
           <SectionTitle subtitle="PCB design expertise">About Me</SectionTitle>
-          <p className="text-slate-300">
-          I’m Madhav Pandey, a PCB Designer and Junior R&D Engineer with 4+ years of hands-on experience in designing, optimizing, and debugging printed circuit boards for real-world applications. Since 2021, I’ve been working at Novelco Technologies, Noida, where I specialize in creating high-performance, manufacturable, and cost-efficient PCB designs used across consumer electronics, power systems, IoT devices, microcontroller-based solutions, and more.
-
-My journey in electronics started with a strong academic foundation in Electronics Engineering , and has evolved into a deep passion for precise schematic design, intelligent routing, and robust problem-solving in hardware engineering.
-
-I bring together technical expertise, design accuracy, and practical debugging skills to deliver reliable and production-ready PCB solutions.
+          <p className="text-slate-300 font-medium">
+            Electronics Engineer, PCB Designer, Hardware Developer
           </p>
 
+          <p className="text-slate-300 mt-4">
+            Are you looking for a seasoned Electronics and Electrical Design Engineer to bring your hardware ideas to life? You are in the right place!
+          </p>
+
+          <p className="text-slate-300 mt-4">
+            I offer exceptional, production-ready PCB design services tailored to your specific requirements. With over 9 years of rich industry experience and a track record of successfully delivering 450+ PCB designs, I specialize in turning complex concepts into high-performance, reliable hardware.
+          </p>
+
+          <p className="text-slate-300 mt-4">
+            From compact microcontrollers and power electronics to high-speed digital boards and RF designs with impedance-controlled routing, I ensure your product is engineered to perfection.
+          </p>
+
+          <h3 className="text-slate-200 font-semibold mt-6 mb-3">What I Deliver With Every Project:</h3>
+          <ol className="text-slate-300 list-decimal list-inside space-y-2">
+            <li><strong>Circuit Schematic:</strong> Well-structured, clean, and professional circuit diagrams.</li>
+            <li><strong>Reverse Engineering:</strong> Accurate recreation and analysis of existing hardware from physical boards and reference designs.</li>
+            <li><strong>PCB Layout:</strong> Optimized component placement and routing for signal and power integrity.</li>
+            <li><strong>Production Files:</strong> Standard Gerber files (RS-274X/X2) and NC Drill files.</li>
+            <li><strong>Bill of Materials (BOM):</strong> Comprehensive component list with manufacturer part numbers (MPNs) and sourcing links.</li>
+            <li><strong>Manufacturing Designators:</strong> Assembly layouts and Pick &amp; Place files for automated SMT assembly.</li>
+            <li><strong>3D Models:</strong> Realistic 3D STEP/OBJ files for mechanical integration.</li>
+          </ol>
+
           <div className="mt-6 grid grid-cols-3 gap-4">
-            <Stat label="Years of Experience" value={4} />
-            <Stat label="Projects Delivered" value={50} />
+            <Stat label="Years of Experience" value={9} />
+            <Stat label="PCB Designs Delivered" value={450} />
             <Stat label="Industries Served" value={2} />
           </div>
         </div>
